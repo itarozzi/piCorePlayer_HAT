@@ -28,9 +28,9 @@ I creatd the PCB and using STEP file generated  by KiCad as reference, I created
 
 ## How it works
 
-The power section use a latched relay to power the RaspberryPi throught the 40-pin GPIO connector, when a button is pressed. I canged the original circuit to use the same button to also poweroff the device.
+The power section use a latched relay to power the RaspberryPi throught the 40-pin GPIO connector, when a button is pressed. I changed the original circuit to use the same button to also poweroff the device.
 
-So, in its initial state, the START/STOP button (replied in PCB and front panel) drive the transistor Q1 to switch-on the relay and power on the RaspberryPi.
+So, in its initial state, the START/STOP button (replicated in PCB and front panel) drive the transistor Q1 to switch-on the relay and power on the RaspberryPi.
 
 When the RaspberryPi is on and the START/STOP button  is pressed again, a high level is sent to GPIO_16 pin. A little daemon intercept this event and execute the safe power-off using linux commands.
 
