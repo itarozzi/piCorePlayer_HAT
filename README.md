@@ -47,6 +47,11 @@ And additional safe button is used to activate Q2 if the software poweroff fails
 - DAC integration in the HAT
 
 
+License
+
+- Hardware design is released under CERN-OHL-S v2 license
+- Software is released under GPL3 License
+- Documentation is released under CC BY-SA 3.0
 
 
 ## Credits
