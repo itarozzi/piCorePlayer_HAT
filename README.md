@@ -8,6 +8,8 @@ By Ivan Tarozzi
 - ivan.tarozzi@fablabromagna.org
 
 
+> CAUTION!!!! Dont't use yet. The circuit is under test and the schema and PCB are probabily wrong due a wrong relay connection. I'll update the circuit as soon as possible
+
 
 ## Description
 When I decided to use a RaspberryPi and the [piCorePlayer project](https://www.picoreplayer.org/) to stream my music library from NAS to HiFi I encountered the problem to have a proper PSU for the RaspberryPi, having the ability to shutdown the system in safe mode and using a HW button for a real ON/OFF.
